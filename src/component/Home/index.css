@@ -1,0 +1,208 @@
+.mainPage {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  text-align: center;
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+}
+.shortNote {
+  text-align: center;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+.form {
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.divCompartment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.inputEle {
+  margin-top: 10px;
+  height: 30px;
+}
+.greyFont {
+  color: grey;
+}
+.uploadButton {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 20px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin: 6px;
+  font-size: 12px;
+  width: 90px;
+  flex-shrink: 0;
+
+  align-items: center;
+}
+.uploadIcon {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.labelEl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.certificationsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.certificationsCompartment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error {
+  color: red;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    font-size: 28px;
+  }
+  .shortNote {
+    font-size: 16px;
+  }
+  .flexCompartment {
+    display: flex;
+  }
+  .divCompartment {
+    margin-right: 15px;
+    margin-left: 7px;
+    width: 50%;
+  }
+  .form {
+    width: 80%;
+  }
+  .inputEle {
+    margin-top: 12px;
+  }
+  .uploadButton {
+    width: 140px;
+    justify-content: center;
+  }
+  .uploadIcon {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .certificationsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    font-size: 33px;
+  }
+  .shortNote {
+    font-size: 18px;
+  }
+  .flexCompartment {
+    display: flex;
+  }
+  .divCompartment {
+    margin-right: 15px;
+    margin-left: 7px;
+    width: 50%;
+  }
+  .form {
+    width: 70%;
+  }
+  .inputEle {
+    margin-top: 12px;
+  }
+  .uploadButton {
+    width: 140px;
+    justify-content: center;
+  }
+  .uploadIcon {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .certificationsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+}
+
+.closeButtonIcon {
+  align-self: flex-end;
+}
+.submitButton {
+  align-self: flex-end;
+  border-radius: 6px;
+  border: 1px solid grey;
+  background-color: blueviolet;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 150px;
+}
+.divCompartmentOfUpload {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 14px;
+  padding-left: 10px;
+}
+
+.inputEle2 {
+  border: 0px;
+  width: 100%;
+}
+.instructionText {
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+}
+.errorMsg {
+  color: red;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+}
+.certificationsList {
+  list-style-type: none;
+  padding-left: 0px;
+}

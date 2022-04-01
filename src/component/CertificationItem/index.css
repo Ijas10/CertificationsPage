@@ -1,0 +1,44 @@
+.listElement {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(241, 243, 245);
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+.flexBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.numberContainer {
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  height: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.nameOfCertificate {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  margin-right: 10px;
+}
+.nameOfUniversity {
+  font-size: 15px;
+  color: grey;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .listElement {
+    width: 45%;
+  }
+}
